@@ -1,5 +1,4 @@
 # SeleniumRepo
-
 Project
 http://automationpractice.com/index.php
 Napisati test plan I sacuvati ga u data folderu vaseg projekta (Moze da sadrzi vise test case-ova nego sto cete automatizovati)
