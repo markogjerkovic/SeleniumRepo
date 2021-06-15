@@ -32,7 +32,6 @@ public class LoginTests extends BaseTest {
 		loginPage.clickSignInGreen();
 		myAccountPage.getMyAddresses().isDisplayed();
 	}
-	
 	@Test(priority = 10)
 	public void loginWithInvalidCredentials() {
 		String invalidEmail = excelReader.getStringData("Login", 17, 2); 

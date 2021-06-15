@@ -3,19 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationTests.LoginTests">
+      <class name="automationTests.RegistrationTests">
         <methods>
           <include name="beforeAllMethods"/>
-          <include name="loginWithInvalidEmail"/>
-          <include name="loginWithEmptyCredentials"/>
-          <include name="userCanLogout"/>
-          <include name="loginWithInvalidCredentials"/>
+          <include name="goToUrl"/>
+          <include name="userCannotRegisterTwiceWithTheSameEmailAdress"/>
+          <include name="signInButton"/>
           <include name="afterAllMethods"/>
-          <include name="loginWithInvalidPassword"/>
+          <include name="RetrievePassword"/>
           <include name="posleSvihTestova"/>
           <include name="beforeAllTests"/>
         </methods>
-      </class> <!-- automationTests.LoginTests -->
+      </class> <!-- automationTests.RegistrationTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
