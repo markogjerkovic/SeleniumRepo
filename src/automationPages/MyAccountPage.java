@@ -3,7 +3,7 @@ package automationPages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+
 
 public class MyAccountPage {
 	WebDriver driver;
@@ -11,12 +11,18 @@ public class MyAccountPage {
 	WebElement logOutButton;
 	WebElement homeButton;     
 	WebElement myWishlistButton; 
+	WebElement myPersonalInformationButton; 
+	WebElement cartButton;
 
 	
 	public MyAccountPage(WebDriver driver) {
 		super();
 		this.driver = driver;
 	}
+	public WebElement getCartButton() {
+		return driver.findElement(By.cssSelector(".shopping_cart"));
+	}
+	
 	public WebElement getHomeButton() {
 		return driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li/a"));
 	}
@@ -29,10 +35,17 @@ public class MyAccountPage {
 	public WebElement getMyWishlistButton() {  
 		return driver.findElement(By.className("lnk_wishlist"));
 	}
+	public WebElement getMyPersonalInformationButton() {  
+		return driver.findElement(By.xpath("//*[@id=\"center_column\"]/div/div[1]/ul/li[4]/a"));
+	}
+	
+	
 
 	
 	/////////////////////////////////////////////////
-	
+	public void clickCartButton() {
+		this.getCartButton().click();
+	}
 	
 	public void clickLogOutButton() {
 		this.getLogOutButton().click();
@@ -46,7 +59,9 @@ public class MyAccountPage {
 	public void clickHomeButton() {
 		this.getHomeButton().click();
 	}
-	
+	public void clickMyPersonalInformationButton() {
+		this.getMyPersonalInformationButton().click();
+	}
 	
 
 

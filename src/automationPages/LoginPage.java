@@ -75,7 +75,7 @@ public class LoginPage {
 		return driver.findElement(By.cssSelector(".alert.alert-danger"));
 	}
 
-	//////////////////////////////////funkcije
+	//////////////////////////////////
 
 	public String getTextFromAutentication() {
 		return this.getAutentication().getText();

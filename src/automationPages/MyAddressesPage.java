@@ -51,7 +51,7 @@ public class MyAddressesPage {
 		return driver.findElement(By.id("submitAddress"));
 	}
 
-/////////////////////////////////////////// metode
+/////////////////////////////////////////// 
 
 	public void clickUpdateAddressButton() {
 		this.getUpdateAddressButton().click();
