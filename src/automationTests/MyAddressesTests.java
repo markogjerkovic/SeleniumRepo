@@ -48,7 +48,7 @@ public class MyAddressesTests extends BaseTest {
 	}
 
 	@Test(priority = 15)
-	public void deleteAddress() {//user myst have 2 addresses
+	public void deleteAddress() {//user must have 2 addresses
 		myAccountPage.clickMyAddressesButton();
 		myAddressesPage.clickDeleteAddressButton();
 		driver.switchTo().alert().accept();

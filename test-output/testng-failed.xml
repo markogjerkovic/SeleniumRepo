@@ -3,18 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationTests.RegistrationTests">
+      <class name="automationTests.MyAddressesTests">
         <methods>
-          <include name="beforeAllMethods"/>
-          <include name="goToUrl"/>
-          <include name="userCannotRegisterTwiceWithTheSameEmailAdress"/>
-          <include name="signInButton"/>
           <include name="afterAllMethods"/>
-          <include name="RetrievePassword"/>
+          <include name="beforeAllMethods"/>
           <include name="posleSvihTestova"/>
+          <include name="deleteAddress"/>
           <include name="beforeAllTests"/>
         </methods>
-      </class> <!-- automationTests.RegistrationTests -->
+      </class> <!-- automationTests.MyAddressesTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
