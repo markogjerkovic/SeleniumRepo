@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-14T16:08:32 CEST" name="Default suite" finished-at="2021-06-14T16:08:32 CEST" duration-ms="21">
+  <suite started-at="2021-06-18T12:35:42 CEST" name="Default suite" finished-at="2021-06-18T12:36:06 CEST" duration-ms="24749">
     <groups>
     </groups>
-    <test started-at="2021-06-14T16:08:32 CEST" name="Default test" finished-at="2021-06-14T16:08:32 CEST" duration-ms="21">
+    <test started-at="2021-06-18T12:35:42 CEST" name="Default test" finished-at="2021-06-18T12:36:06 CEST" duration-ms="24749">
+      <class name="automationTests.CartTests">
+        <test-method is-config="true" signature="beforeAllTests()[pri:0, instance:automationTests.CartTests@635eaaf1]" started-at="2021-06-18T12:35:42 CEST" name="beforeAllTests" finished-at="2021-06-18T12:35:47 CEST" duration-ms="5044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method is-config="true" signature="beforeAllMethods()[pri:0, instance:automationTests.CartTests@635eaaf1]" started-at="2021-06-18T12:35:47 CEST" name="beforeAllMethods" finished-at="2021-06-18T12:35:57 CEST" duration-ms="10088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllMethods -->
+        <test-method signature="addMinusOneProductToCart()[pri:20, instance:automationTests.CartTests@635eaaf1]" started-at="2021-06-18T12:35:57 CEST" name="addMinusOneProductToCart" finished-at="2021-06-18T12:36:05 CEST" duration-ms="8072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMinusOneProductToCart -->
+        <test-method is-config="true" signature="afterAllMethods()[pri:0, instance:automationTests.CartTests@635eaaf1]" started-at="2021-06-18T12:36:05 CEST" name="afterAllMethods" finished-at="2021-06-18T12:36:06 CEST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllMethods -->
+        <test-method is-config="true" signature="posleSvihTestova()[pri:0, instance:automationTests.CartTests@635eaaf1]" started-at="2021-06-18T12:36:06 CEST" name="posleSvihTestova" finished-at="2021-06-18T12:36:06 CEST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posleSvihTestova -->
+      </class> <!-- automationTests.CartTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
